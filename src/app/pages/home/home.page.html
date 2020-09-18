@@ -1,0 +1,133 @@
+<ion-header class="ion-no-border">
+	<ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-button color="light">
+        <ion-icon name="search"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+    <ion-buttons slot="end">
+      <ion-button color="light">
+        <ion-icon name="ellipsis-vertical"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    
+	</ion-toolbar>
+
+  <ion-item lines="none">
+    <ion-label>Headphones</ion-label>
+    <ion-icon color="light" name="options-outline"></ion-icon>
+  </ion-item>
+
+</ion-header>
+
+<ion-content fullscreen="true">
+	
+  <ion-grid class="ion-margin-bottom">
+
+    <ion-row class="ion-align-items-center">
+
+      <ion-col size="3" class="ion-align-self-center">
+        <div class="container custom">
+          <ion-icon color="light" name="headset-outline"></ion-icon>
+        </div>
+      </ion-col>
+
+      <ion-col size="3">
+        <div class="container">
+          <ion-icon color="light" name="radio-outline"></ion-icon>
+        </div>
+      </ion-col>
+
+      <ion-col size="3">
+        <div class="container">
+          <ion-icon color="light" name="musical-notes"></ion-icon>
+        </div>
+      </ion-col>
+
+      <ion-col size="3">
+        <div class="container">
+          <ion-icon color="light" name="play-circle-outline"></ion-icon>
+        </div>
+      </ion-col>
+
+    </ion-row>
+
+  </ion-grid>
+
+  <ion-slides [options]="options">
+
+    <ion-slide>
+      
+        <ion-card class="custom-card">
+        <ion-img src="https://purepng.com/public/uploads/large/purepng.com-headphoneelectronicsheadset-headphone-941524670894v2zxb.png"></ion-img>
+        <ion-card-content class="ion-text-left custom-font">
+          <ion-row>
+            <ion-col size="10">
+              
+              <ion-card-title>Headphone</ion-card-title>
+              <ion-card-subtitle>Subtitle Here</ion-card-subtitle>
+
+            </ion-col>
+             <ion-col size="2">
+              <ion-button color="light" size="small" fill="clear">
+                <ion-icon slot="icon-only" name="heart-outline"></ion-icon>
+              </ion-button>
+            </ion-col>
+          </ion-row>
+        </ion-card-content>
+      </ion-card>
+
+    </ion-slide>
+
+    <ion-slide>
+      
+        <ion-card>
+        <ion-img src="https://purepng.com/public/uploads/large/purepng.com-headphoneelectronicsheadset-headphone-941524670894v2zxb.png"></ion-img>
+        <ion-card-content class="ion-text-left custom-font">
+          <ion-row>
+            <ion-col size="10">
+              
+              <ion-card-title>Headphone</ion-card-title>
+              <ion-card-subtitle>Description</ion-card-subtitle>
+
+            </ion-col>
+             <ion-col size="2">
+              <ion-button color="light" size="small" fill="clear">
+                <ion-icon slot="icon-only" name="heart-outline"></ion-icon>
+              </ion-button>
+            </ion-col>
+          </ion-row>
+        </ion-card-content>
+      </ion-card>
+
+    </ion-slide>
+
+  </ion-slides>
+  
+
+</ion-content>
+
+<ion-tabs>
+  <ion-tab-bar slot="bottom" color="dark">
+    <ion-tab-button layout="icon-start" tab="home">
+      <ion-button class="btn">
+        <ion-icon slot="start" name="home-outline"></ion-icon>
+        <span class="ion-text-capitalize custom-font"> &nbsp;Home</span>
+      </ion-button>
+    </ion-tab-button>
+
+    <ion-tab-button tab="heart">
+      <ion-icon name="heart-outline"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button tab="person">
+      <ion-icon name="person-outline"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button tab="cart">
+      <ion-icon name="cart-outline"></ion-icon>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>

@@ -1,0 +1,73 @@
+ion-content, ion-toolbar, ion-item {
+  --background: #1d1e1f;
+  color: #fff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500;600;700&display=swap');
+
+.custom-font {
+  font-family: 'Roboto Mono', monospace;
+}
+
+ion-item {
+  ion-label {
+    font-size: 26px;
+    font-family: 'Roboto Mono', monospace;
+  }
+}
+
+.container {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  transition: all 120ms ease-in-out;
+}
+
+.custom, .container:hover {
+  border-radius: 10px;
+  background: #2b2c2d;
+  box-shadow:  5px 5px 14px #222, 
+              -5px -5px 14px #1d1e1f;
+}
+
+.btn {
+  --background: #1d1e1f;
+
+  span {
+    border-left: 4px solid #242526;
+    font-size: 18px;
+    font-weight: 200;
+  }
+}
+
+ion-card {
+  width: 100%;
+  padding: 20px;
+  border-radius: 28px;
+  background: #2b2c2d;
+  transform: scale(.9, .9);
+
+
+  ion-img {
+    width: 50%;
+    margin: auto;
+  }
+
+  
+  ion-card-title {
+    color: #fff;
+  }
+
+  ion-card-subtitle {
+    color: #dbd6d6;
+  }
+
+}
+
+.custom-card {
+  transform: scale(1,1);
+  background-image: linear-gradient( 200deg,  #800e5d 11.1%, #035b8a 81.3% );
+}
